@@ -22,7 +22,7 @@ script:
   - mix credo --strict
   # https://github.com/jeremyjh/dialyxir#command-line-options
   # > exit immediately with same exit status as dialyzer. useful for CI
-  # - mix dialyzer --halt-exit-status
+  - mix dialyzer --halt-exit-status
 deploy:
   # https://docs.travis-ci.com/user/deployment/script/
   # > `script` must be a scalar pointing to an executable file or command.
